@@ -53,7 +53,7 @@ function App() {
       path +=
         i < sides - 1
           ? // L = draw line from last coordinates to specified x/y
-            `L ${coords[i + 1][1]}` // @me: change to [0] when enabling q curve
+            `L ${coords[i + 1][1]}` // @ ME: change to [0] when enabling q curve
           : // Z = draw line directly to start point, do not pass go, do not collect $200
             "Z";
     }
